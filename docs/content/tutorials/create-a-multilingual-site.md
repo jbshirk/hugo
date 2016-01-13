@@ -95,7 +95,7 @@ Now you can reference the strings in your templates. One way is to do it like in
 </html>
 ~~~
 
-The above shows both techniques, using an `if eq` and `else if eq` to check the locale, and using `index` to pull strings from the data file that matches the locale set in the site's config file.
+The above shows a pair of techniques that work together, first using a chain of `if eq`'s to check the locale, and then using `index` to pull strings from the data file that matches the locale set in the site's config file.
 
 ## Customize Dates
 
